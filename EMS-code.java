@@ -32,7 +32,7 @@ interface BonusEligible{ //Interface - every class that implement this have to d
     double calculateBonus();
 }
 
-class FullTimeEmployee extends Employee implements BonusEligible{ //"extends" is used to reference to parent class while "implements" is used to reference to interface
+class FullTimeEmployee extends Employee implements BonusEligible{ //"extends" is used to inherits the attributes/methods from parent class while "implements" is used to reference to interface
     private double monthlySalary;
     
     FullTimeEmployee(String name, int id, double monthlySalary){
